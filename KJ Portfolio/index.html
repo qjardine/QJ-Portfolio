@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kait Jardine Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="pages.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	</head>
+	<body>
+	<!-- Navbar -->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navbar">
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link aboutLink" href="#about">About Me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact Me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ResumeKJ.pdf">Resume</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	<!--Navbar end-->
+
+	<!-- Homescreen hero -->
+		<div class="hero-image" id="home">
+			<div class="hero-text">
+				<h1 class="name">Kait Jardine</h1>
+				<h1>Junior Front-End Developer</h1>
+			</div>
+		</div>
+	<!-- End homescreen hero -->
+
+		<div class="container">
+			<!-- About Me section -->
+			<div class="row">
+				<div class="col-md-12" id="about" data-offset="-200">
+					<h2 class="text-center aboutTitle title">About Me</h2>
+					<div class="row">
+						<div class="col-md-4">
+							<img src="headshot.jpg" class="headshot">
+							<p class="img-title">Kait Jardine</p>
+						</div>
+						<div class="col-md-8">
+							<p>I recently graduated UNC Charlotte with a B.A. in Computer Science and am looking for my first web development position. I am a hard worker who is dedicated to learning and passionate about development. I am currently looking for positions in Charlotte and Raleigh, NC.</p>
+							<p>
+							<p>Below is a list of my current skills:</p>
+							<ul class="skills-list">
+								<li>
+									<img src="html.png" alt="HTML5" title="HTML5">
+								</li>
+								<li>
+									<img src="css.png" alt="CSS3" title="CSS3">
+								</li>
+								<li>
+									<img src="javascript.png" alt="Javascript" title="Javascript">
+								</li>
+								<li>
+									<img src="jQuery.png" alt="jQuery" title="jQuery">
+								</li>
+								<li>
+									<img src="bootstrap.png" alt="Bootstrap" title="Bootstrap">
+								</li>
+								<li>
+									<img src="node.png" alt="Node.js" title="Node.js">
+								</li>
+								<li>
+									<img class="big-img" src="express.png" alt="Express"" title="Express">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End About Me -->
+
+			<!-- Projects Section -->
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center title" id="projects">My Projects</h2>
+				</div>
+			</div>
+			<div class="row projects">
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="rgb.jpg" alt="Color Game">
+						<div class="card-body">
+							<h5 class="card-title">RGB Color Game</h5>
+							<p class="card-text">A RGB color guessing game made using HTML, CSS, and Javascript.</p>
+							<a href="ColorGame/colorGame.html" class="btn btn-primary">Visit Site</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="patatap.png" alt="Patatap Clone">
+						<div class="card-body">
+							<h5 class="card-title">Patatap Clone</h5>
+							<p class="card-text">A visual sound kit app made using HTML, CSS, and Paper.js.</p>
+							<a href="PatatapClone/circles.html" class="btn btn-primary">Visit Site</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="todo.jpg" alt="Todo List App">
+						<div class="card-body">
+							<h5 class="card-title">Todo List App</h5>
+							<p class="card-text">A todo list app made with HTML, CSS, and jQuery.</p>
+							<a href="TodoApp/index.html" class="btn btn-primary">Visit Site</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Projects section -->
+		</div>
+
+		<!-- Contact Section -->
+		<div class="contact text-center">
+			<h2 class="title" id="contact">Contact Me</h2>
+			<p><i class="fas fa-phone"></i>  919-741-3432</p>
+			<p><i class="fas fa-envelope"></i>  <a class= "whiteLink" href = "mailto: kaitjardine22@gmail.com">kaitjardine22@gmail.com</a></p>
+			<p><a class= "whiteLink" href = "ResumeKJ.pdf">View my resume</a></p>
+			<p class="sites"><a href="https://www.linkedin.com/in/kaitjardine/"><i class="fab fa-linkedin"></i></a>                   <a href="https://github.com/kjardine"><i class="fab fa-github"></i></a></p>
+			<p> Copyright &copy;2019 Created by Kait Jardine</p>
+		</div>
+		<!-- End Contact section -->
+
+		<!--Main Javascript-->
+		<script type="text/javascript" src="script.js"></script>
+
+	</body>
+</html>
